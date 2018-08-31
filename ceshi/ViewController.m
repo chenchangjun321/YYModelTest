@@ -23,7 +23,6 @@
 #import "Book.h"
 #import "TestModel.h"
 #import "SVProgressHUD.h"
-#import "TestViewController.h"
 
 
 @interface ViewController ()
@@ -34,14 +33,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    NSString *tempString = @"{\"n\":\"Harry Pottery\",\"p\":256,\"zuozhe\":[{\"id\":\"123\",\"name\":\"zhangsan\"},{\"id\":\"456\",\"name\":\"lisi\"}],\"ext\":{\"desc\":\"A book written by J.K.Rowing.\",\"desc2\":\"A book written by J.K.Rowing.2\"},\"ID\":100010}";
-//    Book *model = [Book yy_modelWithJSON:tempString];
-//
-//
-//    NSLog(@"%@",model);
-//    YYCache *yyCache=[YYCache cacheWithName:@"LCJCache"];
-//    NSString *key=@"key";
-//    [yyCache setObject:model forKey:key];
+    NSString *tempString = @"{\"n\":\"Harry Pottery\",\"p\":256,\"zuozhe\":[{\"id\":\"123\",\"name\":\"zhangsan\"},{\"id\":\"456\",\"name\":\"lisi\"}],\"ext\":{\"desc\":\"A book written by J.K.Rowing.\",\"desc2\":\"A book written by J.K.Rowing.2\"},\"ID\":100010}";
+    Book *model = [Book yy_modelWithJSON:tempString];
+
+
+    NSLog(@"%@",model);
+    YYCache *yyCache=[YYCache cacheWithName:@"LCJCache"];
+    NSString *key=@"key";
+    [yyCache setObject:model forKey:key];
     
 
     
@@ -59,20 +58,14 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-//    NSString *key=@"key";
-//    YYCache *yyCache=[YYCache cacheWithName:@"LCJCache"];
-//    BOOL isContains=[yyCache containsObjectForKey:key];
-//    id vuale=[yyCache objectForKey:key];
-//    NSLog(@"%@",vuale);
+    NSString *key=@"key";
+    YYCache *yyCache=[YYCache cacheWithName:@"LCJCache"];
+    BOOL isContains=[yyCache containsObjectForKey:key];
+    id vuale=[yyCache objectForKey:key];
+    NSLog(@"%@",vuale);
     
-    [self go];
-    
-}
--(void)go
-{
-    TestViewController *vc = [[TestViewController alloc]init];
-    [self presentViewController:vc animated:YES completion:nil];
     
 }
+
 
 @end

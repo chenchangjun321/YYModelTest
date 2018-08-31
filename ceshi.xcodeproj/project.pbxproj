@@ -12,14 +12,8 @@
 		B714161B2125115E002F917C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B71416152125115E002F917C /* .gitkeep */; };
 		B714161C2125115E002F917C /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71416172125115E002F917C /* RTRootNavigationController.m */; };
 		B714161D2125115E002F917C /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71416192125115E002F917C /* UIViewController+RTRootNavigationController.m */; };
-		B7141620212511D2002F917C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B714161F212511D2002F917C /* FirstViewController.m */; };
-		B7141623212511E3002F917C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7141622212511E3002F917C /* SecondViewController.m */; };
-		B7141627212518D7002F917C /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7141625212518D7002F917C /* ThirdVC.m */; };
-		B7141628212518D7002F917C /* ThirdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7141626212518D7002F917C /* ThirdVC.xib */; };
 		B714162A21251999002F917C /* customBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B714162921251999002F917C /* customBack@2x.png */; };
 		B7235D69212434CB00911F1D /* keybrdHide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7235D68212434CB00911F1D /* keybrdHide@2x.png */; };
-		B7235D6D2124355A00911F1D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7235D6B2124355A00911F1D /* TestViewController.m */; };
-		B7235D6E2124355A00911F1D /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7235D6C2124355A00911F1D /* TestViewController.xib */; };
 		B739361720CA17580027CF42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B739361620CA17580027CF42 /* AppDelegate.m */; };
 		B739361A20CA17580027CF42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B739361920CA17580027CF42 /* ViewController.m */; };
 		B739361D20CA17580027CF42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B739361B20CA17580027CF42 /* Main.storyboard */; };
@@ -62,18 +56,8 @@
 		B71416172125115E002F917C /* RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRootNavigationController.m; sourceTree = "<group>"; };
 		B71416182125115E002F917C /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
 		B71416192125115E002F917C /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
-		B714161E212511D2002F917C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		B714161F212511D2002F917C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		B7141621212511E3002F917C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		B7141622212511E3002F917C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		B7141624212518D7002F917C /* ThirdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdVC.h; sourceTree = "<group>"; };
-		B7141625212518D7002F917C /* ThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
-		B7141626212518D7002F917C /* ThirdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdVC.xib; sourceTree = "<group>"; };
 		B714162921251999002F917C /* customBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "customBack@2x.png"; sourceTree = "<group>"; };
 		B7235D68212434CB00911F1D /* keybrdHide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keybrdHide@2x.png"; sourceTree = "<group>"; };
-		B7235D6A2124355A00911F1D /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		B7235D6B2124355A00911F1D /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		B7235D6C2124355A00911F1D /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		B739361220CA17580027CF42 /* ceshi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceshi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B739361520CA17580027CF42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B739361620CA17580027CF42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -221,16 +205,6 @@
 				B7D9F97620CA417600028A85 /* FZBaseModel.m */,
 				B770379220EF11A60041FCE6 /* TestModel.h */,
 				B770379320EF11A60041FCE6 /* TestModel.m */,
-				B7235D6A2124355A00911F1D /* TestViewController.h */,
-				B7235D6B2124355A00911F1D /* TestViewController.m */,
-				B7235D6C2124355A00911F1D /* TestViewController.xib */,
-				B714161E212511D2002F917C /* FirstViewController.h */,
-				B714161F212511D2002F917C /* FirstViewController.m */,
-				B7141621212511E3002F917C /* SecondViewController.h */,
-				B7141622212511E3002F917C /* SecondViewController.m */,
-				B7141624212518D7002F917C /* ThirdVC.h */,
-				B7141625212518D7002F917C /* ThirdVC.m */,
-				B7141626212518D7002F917C /* ThirdVC.xib */,
 			);
 			path = ceshi;
 			sourceTree = "<group>";
@@ -358,9 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7141628212518D7002F917C /* ThirdVC.xib in Resources */,
 				B739362220CA17590027CF42 /* LaunchScreen.storyboard in Resources */,
-				B7235D6E2124355A00911F1D /* TestViewController.xib in Resources */,
 				B7235D69212434CB00911F1D /* keybrdHide@2x.png in Resources */,
 				B714161A2125115E002F917C /* .gitkeep in Resources */,
 				B739361F20CA17590027CF42 /* Assets.xcassets in Resources */,
@@ -432,17 +404,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7141627212518D7002F917C /* ThirdVC.m in Sources */,
 				B7D9F97420CA258700028A85 /* Person.m in Sources */,
-				B7141623212511E3002F917C /* SecondViewController.m in Sources */,
 				B714161D2125115E002F917C /* UIViewController+RTRootNavigationController.m in Sources */,
 				B7D9F96E20CA1E5400028A85 /* Book.m in Sources */,
 				B739361A20CA17580027CF42 /* ViewController.m in Sources */,
 				B7D9F97720CA417600028A85 /* FZBaseModel.m in Sources */,
 				B739362520CA17590027CF42 /* main.m in Sources */,
 				B7D9F97120CA244500028A85 /* ext.m in Sources */,
-				B7141620212511D2002F917C /* FirstViewController.m in Sources */,
-				B7235D6D2124355A00911F1D /* TestViewController.m in Sources */,
 				B739361720CA17580027CF42 /* AppDelegate.m in Sources */,
 				B770379420EF11A60041FCE6 /* TestModel.m in Sources */,
 				B714161C2125115E002F917C /* RTRootNavigationController.m in Sources */,
