@@ -7,6 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "IQKeyboardManager.h"
+#import "SVProgressHUD.h"
+#import "RTRootNavigationController.h"
+#import "FirstViewController.h"
+#import "TestViewController.h"
+
+
 
 @interface AppDelegate ()
 
@@ -17,9 +24,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES;
+    manager.shouldResignOnTouchOutside = YES;
+    manager.shouldToolbarUsesTextFieldTintColor = YES;
+    manager.enableAutoToolbar = YES;
+    manager.toolbarDoneBarButtonItemImage = [UIImage imageNamed:@"keybrdHide"];
+    [self defaultSet];
+    
+    UITabBarController *tab = [[UITabBarController alloc]init];
+    FirstViewController *fir = [[FirstViewController alloc]init];
+    TestViewController *test = [[TestViewController alloc]init];
+
+    tab.viewControllers = @[fir,test];
+    [tab addChildViewController:fir];
+    [tab addChildViewController:test];
+    
+    RTRootNavigationController *rt = [[RTRootNavigationController alloc]initWithRootViewController:tab];
+    self.window.rootViewController =  rt;
+    
+    
     return YES;
 }
 
+-(void)defaultSet
+{
+    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
+    [SVProgressHUD setMinimumDismissTimeInterval:3];
+    [SVProgressHUD  setDefaultStyle:SVProgressHUDStyleCustom];
+    [SVProgressHUD setForegroundColor:[UIColor whiteColor]];
+    [SVProgressHUD setBackgroundColor:[UIColor greenColor]];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
